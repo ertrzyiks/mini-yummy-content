@@ -1,0 +1,14 @@
+{
+  "name": "mini-yummy-content",
+  "description": "Mini yummy recipes",
+  "license": "MIT",
+  "author": "Dyrksy",
+  "scripts": {
+    "new-recipe": "hygen recipe new"
+  },
+  "dependencies": {
+    "enquirer": "^2.3.1",
+    "hygen": "^4.0.7",
+    "underscore.string": "^3.3.5"
+  }
+}
