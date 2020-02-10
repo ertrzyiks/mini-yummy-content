@@ -12,6 +12,7 @@ jobs:
         with:
           repository: yummy-recipes/yummy
           path: app
+          ref: latest
       - uses: actions/checkout@v2
         with:
           repository: yummy-recipes/mini-yummy-content
@@ -47,4 +48,4 @@ jobs:
           git add .
           git commit -m 'Update'
           git push dokku master --force
-        working-directory: app/packages/core/public
+        working-directory: app/packages/blog/public
